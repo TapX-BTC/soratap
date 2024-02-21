@@ -37,8 +37,9 @@ export default function Home() {
           height={37}
           priority
         />
-        <p className="mt-6 text-lg text-center leading-8 text-gray-500">
-          $SORA is a community driven Bitcoin token on the Bitcoin TAP Protocol.
+        <p className="mt-6 text-lg text-center leading-8 text-gray-400">
+          $SORA is a community driven Bitcoin token on the TAP Protocol. Minted by Jason Fang, founder of sora ventures
+          and a lead investor in Tap Protocol, $SORA was originally deployed as a demonstration but is now leading to $TAP adoption
         </p>
         <div className="mt-10 flex flex-col items-center text-center justify-center gap-y-6 sm:flex-row sm:justify-center sm:gap-x-6">
           <a
