@@ -10,27 +10,26 @@ export default function Home() {
             <code className="font-mono font-bold">github</code>
           </p>
         </a>
-        <div className=" fixed bg-black bottom-0 left-0 flex h-24 w-full items-end justify-center lg:static lg:h-24 lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://tapx.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Site By{" "}
-            <Image
-              src="/tapxwhite.svg"
-              alt="TapX Logo"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+        <div className="fixed bottom-0 left-0 flex h-24 w-full items-end justify-center lg:static lg:h-24 lg:w-auto lg:bg-none bg-black sm:bg-black">          <a
+          className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+          href="https://tapx.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Site By{" "}
+          <Image
+            src="/tapxwhite.svg"
+            alt="TapX Logo"
+            width={100}
+            height={24}
+            priority
+          />
+        </a>
 
         </div>
       </div>
 
-      <div className="relative -z-10 flex flex-col place-items-center before:z-[-10] before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:dark:bg-gradient-to-br before:dark:from-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-orange-300 after:via-orange-400 after:to-orange-500 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-orange-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#ffbb01] after:dark:opacity-40 before:lg:h-[360px] ">
+      <div className="relative -z-10 flex flex-col place-items-center before:z-[-10] before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:dark:bg-gradient-to-br before:dark:from-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-orange-300 after:via-orange-400 after:to-orange-500 after:blur-2xl after:content-[''] before:from-transparent before:dark:to-orange-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#ffbb01] after:dark:opacity-40 before:lg:h-[360px] ">
         <Image
           className="relative drop-shadow-[0_0_0.3rem_#ffffff70]"
           src="/sorafull.svg"
@@ -57,7 +56,7 @@ export default function Home() {
 
           <a href="https://x.com/sora_btc?s=21&t=RHfes13PLRHYh7rIA3EtJg" className="rounded-md text-center p-2 hover:bg-gray-800">
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+              className="relative drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/twitter.svg"
               alt="X Twitter Icon"
               width={24}
@@ -68,7 +67,7 @@ export default function Home() {
           </a>
           <a href="https://x.com/sora_lfg?s=21&t=RHfes13PLRHYh7rIA3EtJg" className="rounded-md text-center p-2 hover:bg-gray-800">
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+              className="relative drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/twitter.svg"
               alt="X Twitter Icon"
               width={24}
@@ -77,9 +76,9 @@ export default function Home() {
             />
             <p className="text-sm">cn</p>
           </a>
-          <a href="https://t.me/SORA_ON_TAP" className=" text-center rounded-md p-2 hover:bg-gray-800">
+          <a href="https://t.me/SORA_ON_TAP" target="_blank" className=" text-center rounded-md p-2 hover:bg-gray-800">
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+              className="relative drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/telegram.svg"
               alt="Telegram Icon"
               width={24}
