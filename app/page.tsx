@@ -48,9 +48,12 @@ export default function Home() {
             Explore $SORA on TapX
           </a>
           <a href="https://t.me/SORA_ON_TAP" className="text-sm font-semibold leading-6 text-white hover:text-orange-500">
-            Join Telegaram Community <span aria-hidden="true">→</span>
+            Join Telegram Community <span aria-hidden="true">→</span>
           </a>
         </div>
+        <p className="mt-6 text-sm font-bold text-center leading-8 text-red-500">
+          $SORA token page and balances on TapX are currently being fixed and will be updated shortly.
+        </p>
         <div className="my-10 flex items-center justify-center gap-x-6">
 
           <a href="https://x.com/sora_btc?s=21&t=RHfes13PLRHYh7rIA3EtJg" className="rounded-md text-center p-2 hover:bg-gray-800">
