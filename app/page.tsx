@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className="mt-10 flex items-center justify-center gap-x-6">
 
-          <a href="link_to_twitter">
+          <a href="https://x.com/sora_btc?s=21&t=RHfes13PLRHYh7rIA3EtJg">
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/twitter.svg"
@@ -65,7 +65,7 @@ export default function Home() {
             />
             <p className="text-sm">eng</p>
           </a>
-          <a href="link_to_twitter">
+          <a href="https://x.com/sora_lfg?s=21&t=RHfes13PLRHYh7rIA3EtJg">
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/twitter.svg"
@@ -74,7 +74,7 @@ export default function Home() {
               height={24}
               priority
             />
-            <p className="text-sm">chi</p>
+            <p className="text-sm">cn</p>
           </a>
           <a href="https://t.me/SORA_ON_TAP">
             <Image
