@@ -86,6 +86,8 @@ export default function Home() {
               height={24}
               priority
             />
+            <p className="text-sm">tg</p>
+
           </a>
         </div>
 
