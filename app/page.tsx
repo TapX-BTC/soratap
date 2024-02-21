@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-1 display-none lg: display-flex max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <a href="https://github.com/TapX-BTC/soratap">
-          <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+          <p className="fixed left-0 top-0 flex w-full justify-center border-b pb-6 pt-8 backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:bg-zinc-800/30">
             contribute to this site on&nbsp;
             <code className="font-mono font-bold">github</code>
           </p>
@@ -17,7 +17,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+            Site By{" "}
             <Image
               src="/tapxwhite.svg"
               alt="TapX Logo"
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="mt-10 flex flex-col items-center justify-center gap-y-6 sm:flex-row sm:justify-center sm:gap-x-6">
           <a
             href="https://www.tapx.app/tokens/%24sora"
-            className="border border-orange-500 rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="border border-orange-500 rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
           >
             Explore $SORA on TapX
           </a>
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className="mt-10 flex items-center justify-center gap-x-6">
 
-          <a href="https://x.com/sora_btc?s=21&t=RHfes13PLRHYh7rIA3EtJg">
+          <a href="https://x.com/sora_btc?s=21&t=RHfes13PLRHYh7rIA3EtJg" className="rounded-md text-center p-2 hover:bg-gray-800">
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/twitter.svg"
@@ -66,7 +66,7 @@ export default function Home() {
             />
             <p className="text-sm">eng</p>
           </a>
-          <a href="https://x.com/sora_lfg?s=21&t=RHfes13PLRHYh7rIA3EtJg">
+          <a href="https://x.com/sora_lfg?s=21&t=RHfes13PLRHYh7rIA3EtJg" className="rounded-md text-center p-2 hover:bg-gray-800">
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/twitter.svg"
@@ -77,7 +77,7 @@ export default function Home() {
             />
             <p className="text-sm">cn</p>
           </a>
-          <a href="https://t.me/SORA_ON_TAP">
+          <a href="https://t.me/SORA_ON_TAP" className=" text-center rounded-md p-2 hover:bg-gray-800">
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src="/telegram.svg"
@@ -109,7 +109,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Decentralized metaprotocol tracking for Bitcoin Ordinals..
+            Decentralized metaprotocol tracking for Bitcoin Ordinals.
           </p>
         </a>
 
