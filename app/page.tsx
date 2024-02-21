@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/*
       <div className="z-1 display-none lg: display-flex max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <a href="https://github.com/TapX-BTC/soratap">
           <p className="fixed left-0 top-0 flex w-full justify-center border-b pb-6 pt-8 backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:bg-zinc-800/30">
@@ -29,8 +28,7 @@ export default function Home() {
 
         </div>
       </div>
-  */}
-      <div className="relative -z-10 flex flex-col place-items-center before:z-[-10] before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:dark:bg-gradient-to-br before:dark:from-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-orange-300 after:via-orange-400 after:to-orange-500 after:blur-2xl after:content-[''] before:from-transparent before:dark:to-orange-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#ffbb01] after:dark:opacity-40 before:lg:h-[360px] ">
+      <div className="relative -z-10 flex flex-col place-items-center before:z-[-10] before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:dark:bg-gradient-to-br before:dark:from-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:via-orange-400 after:to-orange-500 after:blur-2xl after:content-[''] before:from-transparent before:dark:to-orange-700 before:dark:opacity-10 after:from-sky-900 after:dark:via-[#ffbb01] after:dark:opacity-40 before:lg:h-[360px] ">
         <Image
           className="relative drop-shadow-[0_0_0.3rem_#ffffff70]"
           src="/sorafull.svg"
@@ -39,13 +37,13 @@ export default function Home() {
           height={37}
           priority
         />
-        <p className="mt-6 text-lg leading-8 text-gray-500">
+        <p className="mt-6 text-lg text-center leading-8 text-gray-500">
           $SORA is a community driven Bitcoin token on the Bitcoin TAP Protocol.
         </p>
-        <div className="mt-10 flex flex-col items-center justify-center gap-y-6 sm:flex-row sm:justify-center sm:gap-x-6">
+        <div className="mt-10 flex flex-col items-center text-center justify-center gap-y-6 sm:flex-row sm:justify-center sm:gap-x-6">
           <a
             href="https://www.tapx.app/tokens/%24sora"
-            className="border border-orange-500 rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
+            className="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
           >
             Explore $SORA on TapX
           </a>
@@ -53,7 +51,7 @@ export default function Home() {
             Join Telegaram Community <span aria-hidden="true">→</span>
           </a>
         </div>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
+        <div className="my-10 flex items-center justify-center gap-x-6">
 
           <a href="https://x.com/sora_btc?s=21&t=RHfes13PLRHYh7rIA3EtJg" className="rounded-md text-center p-2 hover:bg-gray-800">
             <Image
