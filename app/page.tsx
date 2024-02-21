@@ -47,8 +47,8 @@ export default function Home() {
           >
             Explore $SORA on TapX
           </a>
-          <a href="https://t.me/SORA_ON_TAP" className="text-sm font-semibold leading-6 text-white hover:text-orange-500">
-            Join Telegram Community <span aria-hidden="true">→</span>
+          <a href="https://ordinalswallet.com/collection/tap-$SORA" className="text-sm font-semibold leading-6 text-white hover:text-orange-500">
+            View $SORA Ordinals Wallet Collection <span aria-hidden="true">→</span>
           </a>
         </div>
         <div className="my-10 flex items-center justify-center gap-x-6">
